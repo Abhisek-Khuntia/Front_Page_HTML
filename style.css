@@ -1,5 +1,6 @@
 
-*{
+body{  
+    background-color: lightblue;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -60,7 +61,7 @@ ul li a:hover{
     transform: translate(-50%,-50%);
 }
 .container h1{
-    font-size: 500%;
+    font-size: 300%;
     color: floralwhite;
 }
 
@@ -68,6 +69,7 @@ ul li a:hover{
     position: absolute;
     top: 60%;
     left: 50%;
+    
     transform: translate(-50%,-50%);
 }
 .btn{
@@ -86,4 +88,31 @@ ul li a:hover{
 .bottom{
 
     text-align: center;
+    padding: 20px;
+}
+@media only screen and (max-width: 900px){
+
+    .container h1{
+        font-size: 200%;
+        color: floralwhite;
+    }.button{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        font-size: 10px;
+        transform: translate(-50%,-50%);
+    }
+    .logo{
+        text-align: center;
+        display: block;
+    }
+    nav{
+        text-align: center;
+        display: block;
+        list-style-type: none;
+        margin-top: 25px;
+        
+        
+    }
+      
 }
